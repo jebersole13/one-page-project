@@ -1,13 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Jon Ebersole"
+      content="Education, Production, and Development"
+    />
+    <title>JCE Productions</title>
+    <meta property="og:title" content="JCE Productions"> 
+    <meta   name=”image” 
+    property="og:image" content="https://jceproductions.com/portpor.jpg"> 
+    <meta property="og:url" content="https://jceproductions.com/"> 
+    <meta property="og:type" content="website"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName">
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   </body>
 </html>

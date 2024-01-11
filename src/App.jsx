@@ -3,6 +3,7 @@ import Footer from './Components/Footer';
 import About from './Sections/About';
 import Details from './Sections/Details';
 import Offering from './Sections/Offering';
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
 <h5>Offering section</h5>
 <br />
 <Offering/>
-   
+   <br />
+<br />
+
+<Contact/>
 <Footer/>
     </div>
   )

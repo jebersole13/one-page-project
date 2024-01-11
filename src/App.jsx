@@ -2,7 +2,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import About from './Sections/About';
 import Details from './Sections/Details';
-import Offerings from './Sections/Offerings'
+import Offerings from './Sections/Offering'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
     <main>
 <About/>
 <Details/>
-<Offerings/>
+<Offering/>
 
     </main>
 <Footer/>

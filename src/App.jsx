@@ -13,9 +13,16 @@ function App() {
       One page Scroller Test
     </h1>  
 
- //why didn this not work before?
+<h5>About Section</h5>
+<br />
 <About/>
+
+<h5>Details Section</h5>
+<br />
 <Details/>
+
+<h5>Offering section</h5>
+<br />
 <Offering/>
    
 <Footer/>

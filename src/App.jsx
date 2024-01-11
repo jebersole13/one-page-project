@@ -1,5 +1,6 @@
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import About from './Sections/About';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     </h1>  
 
  
-
+<About/>
 
    
 <Footer/>

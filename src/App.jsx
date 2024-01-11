@@ -11,12 +11,12 @@ function App() {
         <h1 className="text-3xl font-bold underline">
       One page Scroller Test
     </h1>  
-    <main>
+ 
 <About/>
 <Details/>
 <Offering/>
 
-    </main>
+   
 <Footer/>
     </div>
   )

@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import About from './Sections/About';
+import Details from './Sections/Details';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
  
 <About/>
+<Details/>
 
    
 <Footer/>

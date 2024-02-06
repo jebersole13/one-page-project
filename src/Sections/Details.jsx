@@ -1,7 +1,7 @@
 function Details (){
 
     return (
-        <div>
+        <div className= 'rounded-md'>
             <h3>Details</h3>
         </div>
     )
